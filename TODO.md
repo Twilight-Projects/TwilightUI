@@ -1,4 +1,5 @@
 ## Todo
+- Docs
 - Components
    - Input
    - Button
@@ -26,7 +27,8 @@
    - Dropdown
    - Icon
    - Progress
+   - Steps
    - Tabs
    - Table
    - Tooltip
-- Docs
+   - Charts
