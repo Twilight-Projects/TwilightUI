@@ -1,0 +1,5 @@
+<?php
+
+use TwilightProjects\TwilightUI\Tests\TestCase;
+
+uses(TestCase::class)->in(__DIR__);
