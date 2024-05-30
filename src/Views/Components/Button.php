@@ -20,11 +20,10 @@ class Button extends Component
         public ?string $spinner = null,
         public ?string $link = null,
         public ?string $tooltip = null,
-        public ?string $tooltipPosition = "top",
+        public ?string $tooltipPosition = 'top',
         public ?string $hint = null,
-    )
-    {
-        $this->uuid = "twilight-" . md5(serialize($this));
+    ) {
+        $this->uuid = 'twilight-'.md5(serialize($this));
     }
 
     public function spinnerTarget(): ?string
@@ -44,4 +43,3 @@ class Button extends Component
         return view('twilightui::components.button');
     }
 }
-

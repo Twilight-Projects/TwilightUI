@@ -22,8 +22,8 @@ class TwilightUIServiceProvider extends PackageServiceProvider
             ->hasConfigFile()
             ->hasViews();
 
-        Blade::component("button", Button::class);
+        Blade::component('button', Button::class);
 
-        Blade::component("input", Input::class);
+        Blade::component('input', Input::class);
     }
 }

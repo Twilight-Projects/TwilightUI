@@ -27,9 +27,8 @@ class Input extends Component
         public ?string $errorClass = 'text-red-500 label-text-alt p-1',
         public ?bool $omitError = false,
         public ?bool $firstErrorOnly = false,
-    )
-    {
-        $this->uuid = "twilight-" . md5(serialize($this));
+    ) {
+        $this->uuid = 'twilight-'.md5(serialize($this));
     }
 
     public function modelName(): ?string
@@ -45,4 +44,3 @@ class Input extends Component
         return view('twilightui::components.input');
     }
 }
-
