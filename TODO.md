@@ -27,8 +27,8 @@
    - [ ] Dropdown
    - [ ] Icon
    - [ ] Progress
-   - Steps
-   - Tabs
-   - Table
-   - Tooltip
-   - Charts
+   - [ ] Steps
+   - [ ] Tabs
+   - [ ] Table
+   - [ ] Tooltip
+   - [ ] Charts
