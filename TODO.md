@@ -7,7 +7,7 @@
    - [ ] Modal
    - [ ] Toast
    - [ ] Alert
-   - [ ] Checkbox
+   - [x] Checkbox
    - [ ] Date
    - [ ] Password
    - [ ] Pin
